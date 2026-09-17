@@ -1,0 +1,181 @@
+* Extracted by KLayout with SG13G2 LVS runset on : 16/09/2026 14:49
+
+.SUBCKT LNA2609 c00_IN c00_OUT c00_TI c00_TO c01_IN c01_OUT c02_IN c02_OUT
++ c02_T c03_IN c03_OUT c10_IN c10_OUT c11_IN c11_OUT c12_IN c12_OUT c13_IN
++ c13_OUT c20_IN c20_OUT c21_IN c21_OUT c22_IN c22_OUT c23_IN c23_OUT c30_IN
++ c30_OUT c31_IN c31_OUT c32_IN c32_OUT c33_IN c33_OUT sub!
+X$61613 sub! c33_IN c33_OUT GSG_dut_npn13g2_m1_Nx22_le0p9u_we0p07u_sealring
+X$66047 sub! c23_IN c23_OUT GSG_dut_npn13g2l_m1_Nx8_le2p5u_we0p07u_sealring
+X$68523 sub! c21_IN c21_OUT GSG_dut_npn13g2l_m1_Nx14_le2p5u_we0p07u_sealring
+X$243521 sub! c03_IN c03_OUT GSG_load_sealring
+X$245832 c02_T c02_IN c02_OUT GSG_thru_sealring
+X$248122 sub! c01_IN c01_OUT GSG_short_sealring
+X$480309 sub! c30_IN c30_OUT GSG_dut_npn13g2_m1_Nx48_le0p9u_we0p07u_sealring
+X$480310 sub! c31_IN c31_OUT GSG_dut_npn13g2_m1_Nx39_le0p9u_we0p07u_sealring
+X$480311 sub! c32_IN c32_OUT GSG_dut_npn13g2_m1_Nx32_le0p9u_we0p07u_sealring
+X$480312 sub! c20_IN c20_OUT GSG_dut_npn13g2l_m1_Nx17_le2p5u_we0p07u_sealring
+X$480313 sub! c22_IN c22_OUT GSG_dut_npn13g2l_m1_Nx11_le2p5u_we0p07u_sealring
+X$480314 sub! c10_IN c10_OUT GSG_dut_npn13g2v_m1_Nx12_le2p5u_we0p12u_sealring
+X$480315 sub! c11_IN c11_OUT GSG_dut_npn13g2v_m1_Nx10_le2p5u_we0p12u_sealring
+X$480316 sub! c12_IN c12_OUT GSG_dut_npn13g2v_m1_Nx8_le2p5u_we0p12u_sealring
+X$480317 sub! c13_IN c13_OUT GSG_dut_npn13g2v_m1_Nx6_le2p5u_we0p12u_sealring
+X$480318 c00_TI c00_TO c00_IN c00_OUT GSG_open_sealring
+.ENDS LNA2609
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx11_le2p5u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2l_m1_Nx11_le2p5u_we0p07u
+.ENDS GSG_dut_npn13g2l_m1_Nx11_le2p5u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx32_le0p9u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2_m1_Nx32_le0p9u_we0p07u
+.ENDS GSG_dut_npn13g2_m1_Nx32_le0p9u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx8_le2p5u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2l_m1_Nx8_le2p5u_we0p07u
+.ENDS GSG_dut_npn13g2l_m1_Nx8_le2p5u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx22_le0p9u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2_m1_Nx22_le0p9u_we0p07u
+.ENDS GSG_dut_npn13g2_m1_Nx22_le0p9u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx14_le2p5u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2l_m1_Nx14_le2p5u_we0p07u
+.ENDS GSG_dut_npn13g2l_m1_Nx14_le2p5u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx17_le2p5u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2l_m1_Nx17_le2p5u_we0p07u
+.ENDS GSG_dut_npn13g2l_m1_Nx17_le2p5u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx39_le0p9u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2_m1_Nx39_le0p9u_we0p07u
+.ENDS GSG_dut_npn13g2_m1_Nx39_le0p9u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx48_le0p9u_we0p07u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2_m1_Nx48_le0p9u_we0p07u
+.ENDS GSG_dut_npn13g2_m1_Nx48_le0p9u_we0p07u_sealring
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx10_le2p5u_we0p12u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2v_m1_Nx10_le2p5u_we0p12u
+.ENDS GSG_dut_npn13g2v_m1_Nx10_le2p5u_we0p12u_sealring
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx12_le2p5u_we0p12u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2v_m1_Nx12_le2p5u_we0p12u
+.ENDS GSG_dut_npn13g2v_m1_Nx12_le2p5u_we0p12u_sealring
+
+.SUBCKT GSG_short_sealring GND IN OUT
+X$1 GND IN OUT GSG_short
+.ENDS GSG_short_sealring
+
+.SUBCKT GSG_open_sealring TI TO IN OUT
+X$1 TI TO IN OUT GSG_open
+.ENDS GSG_open_sealring
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx8_le2p5u_we0p12u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2v_m1_Nx8_le2p5u_we0p12u
+.ENDS GSG_dut_npn13g2v_m1_Nx8_le2p5u_we0p12u_sealring
+
+.SUBCKT GSG_thru_sealring T IN OUT
+X$1 T IN OUT GSG_thru
+.ENDS GSG_thru_sealring
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx6_le2p5u_we0p12u_sealring GND IN OUT
+X$1 GND IN OUT GSG_dut_npn13g2v_m1_Nx6_le2p5u_we0p12u
+.ENDS GSG_dut_npn13g2v_m1_Nx6_le2p5u_we0p12u_sealring
+
+.SUBCKT GSG_load_sealring GND IN OUT
+X$1 GND IN OUT GSG_load
+.ENDS GSG_load_sealring
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx11_le2p5u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2l we=70n le=2500n Nx=11 m=1
+.ENDS GSG_dut_npn13g2l_m1_Nx11_le2p5u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx32_le0p9u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+Q$3 C B GND GND npn13G2 we=70n le=900n Nx=32 m=1
+.ENDS GSG_dut_npn13g2_m1_Nx32_le0p9u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx8_le2p5u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2l we=70n le=2500n Nx=8 m=1
+.ENDS GSG_dut_npn13g2l_m1_Nx8_le2p5u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx22_le0p9u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+Q$3 C B GND GND npn13G2 we=70n le=900n Nx=22 m=1
+.ENDS GSG_dut_npn13g2_m1_Nx22_le0p9u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx14_le2p5u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2l we=70n le=2500n Nx=14 m=1
+.ENDS GSG_dut_npn13g2l_m1_Nx14_le2p5u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2l_m1_Nx17_le2p5u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2l we=70n le=2500n Nx=17 m=1
+.ENDS GSG_dut_npn13g2l_m1_Nx17_le2p5u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx39_le0p9u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+Q$3 C B GND GND npn13G2 we=70n le=900n Nx=39 m=1
+.ENDS GSG_dut_npn13g2_m1_Nx39_le0p9u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2_m1_Nx48_le0p9u_we0p07u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+Q$3 C B GND GND npn13G2 we=70n le=900n Nx=48 m=1
+.ENDS GSG_dut_npn13g2_m1_Nx48_le0p9u_we0p07u
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx10_le2p5u_we0p12u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2v we=120n le=2500n Nx=10 m=1
+.ENDS GSG_dut_npn13g2v_m1_Nx10_le2p5u_we0p12u
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx12_le2p5u_we0p12u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2v we=120n le=2500n Nx=12 m=1
+.ENDS GSG_dut_npn13g2v_m1_Nx12_le2p5u_we0p12u
+
+.SUBCKT GSG_short GND IN OUT
+R$1 IN GND res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT GND res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+.ENDS GSG_short
+
+.SUBCKT GSG_open TI TO IN OUT
+R$1 IN TI res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT TO res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+.ENDS GSG_open
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx8_le2p5u_we0p12u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2v we=120n le=2500n Nx=8 m=1
+.ENDS GSG_dut_npn13g2v_m1_Nx8_le2p5u_we0p12u
+
+.SUBCKT GSG_thru T IN OUT
+R$1 IN T res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT T res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+.ENDS GSG_thru
+
+.SUBCKT GSG_dut_npn13g2v_m1_Nx6_le2p5u_we0p12u GND IN OUT
+R$1 IN B res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT C res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+3$3 C B GND GND npn13G2v we=120n le=2500n Nx=6 m=1
+.ENDS GSG_dut_npn13g2v_m1_Nx6_le2p5u_we0p12u
+
+.SUBCKT GSG_load GND IN OUT
+R$1 IN TI res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$2 OUT TO res_topmetal2 R=0.00578947368421 L=10u W=19u A=190p P=58u
+R$3 TI GND GND rppd w=10u l=1.655u ps=0u b=0 m=1
+R$4 GND TO GND rppd w=10u l=1.655u ps=0u b=0 m=1
+.ENDS GSG_load

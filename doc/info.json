@@ -1,0 +1,27 @@
+{
+  "name": "LNA2609",
+  "design_type": "R",
+  "technology": "IHP",
+  "unique_id": "2609",
+  "license": "Apache-2.0",
+  "trl": 5,
+  "sealring_x": 1.712,
+  "sealring_y": 1.752,
+  "repository": "https://github.com/taehwan-lnf/IHP__LNA2609",
+  "pdk_version": "IHP-Open-PDK main @ 5e6d592e4002946a4616f798c357f0f3c06cf3b6",
+  "process": "SG13G2",
+  "dependencies": {},
+  "tools": {
+    "layout": "KLayout",
+    "drc": "KLayout, IHP-Open-PDK sg13g2 deck",
+    "lvs": "KLayout, IHP-Open-PDK sg13g2 deck",
+    "generation": "Python 3 and Ruby scripts under LNA2609-main/layout/klayout"
+  },
+  "top_cell_name": "LNA2609",
+  "release": {
+    "version": "v.1.0.0",
+    "gds": "release/v.1.0.0/gds",
+    "netlist": "release/v.1.0.0/netlist",
+    "doc": "release/v.1.0.0/doc"
+  }
+}

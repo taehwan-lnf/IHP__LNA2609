@@ -1,0 +1,11 @@
+gds        designlib/teg/LNA2609/LNA2609.gds
+gds_md5    11402988cdbb86f763eac0eb32c7519a
+netlist    designlib/teg/LNA2609/LNA2609.spice
+net_md5    13ff3a1d420abffde00790b528c1d6c0
+topcell    LNA2609
+pdk_root   /opt/open_pdk/ihp/IHP-Open-PDK
+python     /opt/open_tools/gdsfactory/venv/bin/python
+pdk_commit 5e6d592e4002946a4616f798c357f0f3c06cf3b6
+when       2026-09-16_144950
+exit       0
+verdict    clean
